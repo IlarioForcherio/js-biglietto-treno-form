@@ -56,7 +56,7 @@ function Genera(){
 }
 
 
-
+//numeri random
 let numeroRandom = document.getElementById('random');
 numeroRandom = Math.floor( Math.random() * 9);
 document.getElementById("random").innerHTML= ` ${numeroRandom}`;
@@ -64,6 +64,10 @@ document.getElementById("random").innerHTML= ` ${numeroRandom}`;
 let numeroRandom2 = document.getElementById('random2');
 numeroRandom = Math.floor( Math.random() * 9999999999);
 document.getElementById("random2").innerHTML= ` ${numeroRandom}`;
+
+//refresh
+
+location.reload();
 
 
 
