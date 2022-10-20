@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.bg-grenade{
+    background-color: #b91450;
+}
+
+.vh100{
+    height:100vh;
+}
+
+.text-grenade{
+    color:#b91450;
+}
+
+th{
+    padding-bottom: 50px;
+}
+td{
+    padding-bottom: 20px;
+}
+
+.table-border{
+    border-top: 1px solid #6c757d;
+    border-bottom: 1px solid #6c757d;
+}
+
+
+
+
+
+
