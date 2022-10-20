@@ -43,19 +43,34 @@ function Genera(){
     if (valueEta === 'minore18'){
     prezzoTicket = prezzoTicket - sconto20;
     
-    document.getElementById("ticket").innerHTML= `Il prezzo del biglietto è: ${prezzoTicket.toFixed(2)} Euro`;
+    document.getElementById("ticket").innerHTML= ` ${prezzoTicket.toFixed(2)} €`;
    
     } else if (valueEta === 'maggiore65'){
     prezzoTicket = prezzoTicket - sconto40;
     
-    document.getElementById("ticket").innerHTML= `Il prezzo del biglietto è: ${prezzoTicket.toFixed(2)} Euro`;
+    document.getElementById("ticket").innerHTML= ` ${prezzoTicket.toFixed(2)} €`;
 
    }else (valueEta === 'altro');{
     prezzoTicket = prezzoTicket;
-    document.getElementById("ticket").innerHTML= `Il prezzo del biglietto è: ${prezzoTicket.toFixed(2)} Euro`;
+    document.getElementById("ticket").innerHTML= ` ${prezzoTicket.toFixed(2)} €`;
 }
+
+
+
+let numeroRandom = document.getElementById('random');
+numeroRandom = Math.floor( Math.random() * 9);
+document.getElementById("random").innerHTML= ` ${numeroRandom}`;
+
+let numeroRandom2 = document.getElementById('random2');
+numeroRandom = Math.floor( Math.random() * 9999999999);
+document.getElementById("random2").innerHTML= ` ${numeroRandom}`;
+
+
+
 
    
  
 
 }
+
+
