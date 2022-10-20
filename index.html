@@ -48,7 +48,7 @@
         <button class="btn btn-secondary fw-bold text-grenade m-4" onclick="Genera()">Genera</button>  
         </div>
         <div>
-        <button class="btn btn-secondary fw-bold text-grenade m-4">Annulla</button>  
+        <button id="refresh" class="btn btn-secondary fw-bold text-grenade m-4" onclick="window.location.reload()">Annulla</button>  
         </div>  
     </div>
     
@@ -67,7 +67,7 @@
     <div class="row">
     <div class="col-3 bg-secondary pb-5">
       <h5 class="fw-bold">NOME PASSEGGERO</h5>
-      <div id="nome-passeggero"></div>
+      <div class="fw-bold" id="nome-passeggero"></div>
     </div> 
        <div class="table-border col-9 ">
        <!-- tabella -->
@@ -77,11 +77,6 @@
         <th width="25%">Carrozza</th>
         <th width="25%">Codice CP</th>
         <th width="25%" >Costo biglietto</th>   
-        </tr>
-        <tr>
-        <col> </col>
-        <col> </col>
-        <col> </col>
         </tr>
         <tr>
         <td >Biglietto Standard</td>

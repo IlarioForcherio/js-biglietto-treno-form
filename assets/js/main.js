@@ -65,9 +65,9 @@ let numeroRandom2 = document.getElementById('random2');
 numeroRandom = Math.floor( Math.random() * 9999999999);
 document.getElementById("random2").innerHTML= ` ${numeroRandom}`;
 
-//refresh
 
-location.reload();
+
+
 
 
 
